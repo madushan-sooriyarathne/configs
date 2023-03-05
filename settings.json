@@ -1,0 +1,132 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+
+  "editor.fontFamily": "'Hack','Fira Code','Droid Sans Mono', 'monospace', 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
+  "cSpell.userWords": [
+    "adsbygoogle",
+    "bcyrpt",
+    "clsx",
+    "codegen",
+    "firestore",
+    "globby",
+    "hookform",
+    "mapbox",
+    "mapboxgl",
+    "plaiceholder",
+    "reduxjs",
+    "superjson",
+    "tailwindcss",
+    "tanstack",
+    "trpc"
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "/node_modules/**": true
+  },
+  "json.schemas": [],
+  "scss.lint.duplicateProperties": "warning",
+  "scss.lint.float": "warning",
+  "editor.inlineSuggest.enabled": true,
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "typescript.tsserver.log": "off",
+  "vsintellicode.modelDownloadPath": "/home/madushan/.vscode-models",
+
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.tabCompletion": "on",
+  "liveServer.settings.donotVerifyTags": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "xmlTools.splitAttributesOnFormat": true,
+  "xmlTools.enforcePrettySelfClosingTagOnFormat": true,
+  "git.suggestSmartCommit": false,
+  "workbench.colorTheme": "Dracula Soft",
+  "git.autofetch": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    },
+    "Ubuntu-22.04 (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu-22.04"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
+  "tailwind-fold.unfoldIfLineSelected": true,
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "editor.formatOnPaste": true,
+  "xmlTools.removeCommentsOnMinify": true,
+  "xmlTools.xmlFormatterImplementation": "classic",
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "relative",
+  "editor.glyphMargin": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+    {
+      "before": ["<leader>", "r", "f"],
+      "commands": ["fileutils.renameFile"]
+    }
+  ],
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>"
+}
