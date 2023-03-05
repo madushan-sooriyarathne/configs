@@ -1,6 +1,6 @@
 [
   {
-    "key": ", t",
+    "key": "space,t",
     "command": "workbench.action.toggleSidebarVisibility",
     "when": "!editorTextFocus"
   },
@@ -25,7 +25,7 @@
     "when": "listFocus && !inputFocus"
   },
   {
-    "key": "cmd+enter",
+    "key": "ctrl+enter",
     "command": "renameFile",
     "when": "explorerViewletVisible && filesExplorerFocus"
   },
@@ -50,13 +50,13 @@
     "when": "suggestWidgetVisible"
   },
   {
-    "key": "ctrl+j",
-    "command": "workbench.action.quickOpenSelectNext",
-    "when": "inQuickOpen"
+    "key": "ctrl+k",
+    "when": "codeActionMenuVisible",
+    "command": "selectPrevCodeAction"
   },
   {
-    "key": "ctrl+k",
-    "command": "workbench.action.quickOpenSelectPrevious",
-    "when": "inQuickOpen"
+    "key": "ctrl+j",
+    "when": "codeActionMenuVisible",
+    "command": "selectNextCodeAction"
   }
 ]
